@@ -1,9 +1,9 @@
 <img width="45%" src="./src/assets/logo.gif" alt="alis_ investments" />
 
-# Hi, welcome to alis_ templates  <img width="24px" src="https://media.tenor.com/images/f580b40a349dcb2d7cb93573e2329061/tenor.gif">
+# Hi, welcome to the alis.exchange Visuals Workshop  <img width="24px" src="https://media.tenor.com/images/f580b40a349dcb2d7cb93573e2329061/tenor.gif">
 
 ## Vue Component Template
-This repo serves as a library for all components built for alis_ technologies LLC. Please feel to look through the components created for alis_ to get inspiration from different projects. You will be able to browse different projects in the component library table. After development, you will then add your project to the library table, which will allow you to showcase your work, and alis_ to access your work easily. 
+This repo serves as a library for visualisation components that have been built previously for alis_ technologies LLC. Please feel free to look through the past projects in our Library to get inspiration. After completing the development of your project, your contribution will also be added to the Library. This allows you to showcase your work, and alis_ to access your work easily. 
 
 **Technologies** you will be using within the repo
 <details open>
@@ -27,11 +27,15 @@ We opted to use vue 2.x and not vue 3.x because we rely on and encourage the use
 cd ./vue_component_template_repo
 npm install
 ```
-4. Create development environment.
+4. Run the application locally.
 ```
 npm run serve 
 ```
-5. Browse our community's past examples in `src/projectLibrary`
+5. Open the application locally at 
+```
+http://localhost:3000/library
+```
+8. Browse our community's past examples in the `src/projectLibrary` directory.
 ## Developing your component:
 1. Create a folder in `src/projectLibrary` with your project ID as the folder name.
 2. You can add any files you need for your component in this directory.
@@ -49,8 +53,8 @@ npm run serve
 * Vuex is the tool of choice for state management across vue powered applications. A basic vuex store has been set up should you need it. There are code samples for informative and documentation purposes. 
 #### Vuetify 
 * Vuetify offers a library of prebuild components that comply with material design standards. Where applicable, we encourage the use of these components to increase iteration speed. 
-#### alis_ Component Library
-* You will see our library of past components in `src/projectLibrary` You will also be making your addition here.
+#### alis_ Visuals Library
+* You will see our library of past visualisation components in `src/projectLibrary` You will also be making your addition here.
 #### amCharts Library
 * We use the amCharts library for any data visualisation components like line charts, bar charts, etc.
 #### Dependency Management
