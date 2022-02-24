@@ -1,12 +1,9 @@
 <template>
   <v-app :style="{ background: $vuetify.theme.themes.light.background }">
-    <Header
-      :tabs="[]"
-      :app-name="'alis_ Component Library'"
-    />
+    <header-container />
     <v-main>
       <!-- bottom padding 48px because of fixed footer -->
-      <v-container class="pt-6 pb-12">
+      <v-container class="py-0">
         <library-container />
       </v-container>
     </v-main>
@@ -26,7 +23,7 @@
 </template>
 
 <script>
-import Header from "@/layout/Header";
+import HeaderContainer from "@/components/Header/HeaderContainer";
 import LibraryContainer from "./views/LibraryContainer";
 import PopupProvider from "@/components/Popups/PopupProvider";
 import PopupContainer from "@/components/Popups/PopupContainer";
@@ -36,7 +33,7 @@ export default {
   name: "App",
 
   components: {
-    Header,
+    HeaderContainer,
     LibraryContainer,
     PopupProvider,
     PopupContainer
