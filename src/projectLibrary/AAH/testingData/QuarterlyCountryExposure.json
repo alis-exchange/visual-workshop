@@ -1,0 +1,4683 @@
+{
+  "exposures": [
+    {
+      "branch": "portfolios/PXPMMLBYMRJ7/branches/d1",
+      "branch_display_name": "Model 290 Version 22 - Equally weighted top decile",
+      "exposures_branch": {
+        "average_portfolio_exposures_per_period": {
+          "historical_exposures": [
+            {
+              "effective_date": {
+                "year": 2021,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.017094
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.073636
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.046154
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.032479
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.018409
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.05235
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.012432
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.010101
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.791585
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2019,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.02855
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.024042
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.030697
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.010626
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009642
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.915978
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2016,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.011667
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.046154
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.011111
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.020139
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.097436
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.011364
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.8
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2019,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008065
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008065
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.043282
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.008078
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.012097
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.019047
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.057622
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.011549
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008065
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.864472
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2014,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.016716
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.075623
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.044248
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.025074
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.010816
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.017699
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.253419
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.015733
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.00885
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.00885
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.570394
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 8
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.026087
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.026087
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.008696
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.008696
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008696
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.017391
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.904348
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2017,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.016529
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.050223
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.011806
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.012715
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.27527
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009767
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.636364
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2020,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010163
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.053523
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.018293
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.020325
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.378361
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.01626
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.010453
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.529706
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2014,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.051901
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.040486
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.02924
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.013557
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.008772
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.379217
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008772
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.010965
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008772
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.010234
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.479082
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2018,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.009836
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.039723
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.014158
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.009836
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.014903
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.069357
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009836
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.84174
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2020,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.0125
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.06859
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.012821
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.011905
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.015385
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.878205
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2017,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": 0.00816
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.012228
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.037682
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.019417
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.015137
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.012928
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.027167
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.013245
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.013055
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.872589
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2015,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.057857
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.024786
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.012821
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.015779
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.193294
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.013889
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.017094
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.695595
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2015,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.013577
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.078388
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.012535
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008368
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.011402
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.022474
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.008368
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.021359
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008386
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.011181
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.852182
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2021,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010684
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.069034
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.047009
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.025641
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.011111
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.095989
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.02208
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.014245
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.717949
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2018,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008231
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010246
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.054038
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.008242
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.012668
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.0762
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.014378
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.008242
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.834517
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2021,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.045843
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.075369
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.052137
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.017871
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.089269
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.010256
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.011966
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.72805
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2019,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008131
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.037922
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.009453
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.009802
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.020909
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.008065
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.039886
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.01094
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.010246
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.892457
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2016,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008314
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.009504
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.05373
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.017857
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.014369
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.00831
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.170304
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.01286
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009366
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.749677
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2016,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.011584
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.08461
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.048921
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.017463
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.011019
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.009455
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.044112
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.01654
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008282
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.011042
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.764616
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 8
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008696
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.062662
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.068966
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": 0.008621
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.02455
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.015384
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.017241
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.157384
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008646
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.015142
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008696
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.014738
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.773276
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2014,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.026316
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.060054
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.03655
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.032895
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.012427
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.135628
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": 0.008772
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.020468
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": 0.008772
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008772
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.010025
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.69973
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2019,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008102
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008086
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.034916
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.018081
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.016244
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.014162
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008065
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009004
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.917706
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2017,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010018
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.056096
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.008231
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.01234
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.008219
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.278292
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.008214
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.647181
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2017,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.00818
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.038168
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.01746
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.0117
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.010907
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.059222
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.02222
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008163
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.010892
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.852085
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2015,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.049967
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.010684
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.013295
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.015779
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.04405
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.018993
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.013675
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.856016
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2014,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008621
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.029974
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.035897
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.040452
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.011957
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.290165
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.008658
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008634
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009383
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.582884
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2020,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008266
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010908
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.110147
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008246
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": 0.008266
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.011879
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.04878
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008153
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.021451
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008181
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009682
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.821717
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2018,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.016393
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.033417
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.013413
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.016393
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.012881
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.15826
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.021175
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.010246
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.740857
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2020,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008405
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010524
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.047009
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.042023
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.008476
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.012607
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.026146
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.008394
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.013695
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.852663
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2018,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.009221
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.037831
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.014344
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.010018
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.016393
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.054224
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.013241
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.85372
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2015,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.00831
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010695
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.077421
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.019672
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.018511
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.011103
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.033237
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.015126
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009514
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.828502
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2016,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010714
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.075641
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.020833
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.0125
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.010714
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.063889
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.015
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.838462
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2021,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010021
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.087343
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.041313
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": 0.008621
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.043877
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.014331
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.008621
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.078953
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008621
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.02149
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.017176
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 0.706983
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "branch": "portfolios/PXPMMLBYMRJ7/branches/spread",
+      "branch_display_name": "Model 290 Version 22 - Equally weighted top/bottom decile spread",
+      "exposures_branch": {
+        "average_portfolio_exposures_per_period": {
+          "historical_exposures": [
+            {
+              "effective_date": {
+                "year": 2021,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.002824
+                },
+                {
+                  "entity_id": "Belgium",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": -0.011519
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.038433
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.006325
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.035361
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.012441
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.015674
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.227068
+                },
+                {
+                  "entity_id": "Jordan",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.000049
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.02529
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": -0.002898
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.006966
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.334025
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2019,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": -0.006267
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.176607
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.022734
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": 0.002732
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.008844
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.002304
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.132788
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.017413
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.005884
+                },
+                {
+                  "entity_id": "Uae",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.354867
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2019,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008065
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": -0.002739
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.07925
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.11384
+                },
+                {
+                  "entity_id": "China",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.026727
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.014401
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.010163
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.013133
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.165374
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.026746
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008065
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": -0.00271
+                },
+                {
+                  "entity_id": "Uae",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.432416
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2014,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.008929
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.015724
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.022052
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.122148
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.008929
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.099148
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.009824
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.004491
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.059081
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008929
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.008929
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008929
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.00255
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.00885
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": -0.000079
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.270881
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2016,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.011667
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.04499
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.091187
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.1351
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.017338
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.003541
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.343417
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Jordan",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": 0.002754
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.023352
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": -0.001709
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.611894
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 8
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.061632
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.114264
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.043936
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": -0.017544
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.008772
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.008772
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.201831
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008696
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.026316
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.017391
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.456979
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2014,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.00885
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.06169
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.069793
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.00885
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.064228
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.013557
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.007596
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.076971
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.00885
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008772
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.00885
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.025138
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.00885
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008772
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": -0.004479
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.149606
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2020,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.004931
+                },
+                {
+                  "entity_id": "Belgium",
+                  "exposure": -0.008197
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.006491
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.023606
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.263325
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.008197
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.126596
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.008197
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.020325
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.004918
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.171203
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.00718
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.026471
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.008121
+                },
+                {
+                  "entity_id": "Uae",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.258276
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2017,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.016529
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.061093
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.242509
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.062036
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.008879
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.009001
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.015342
+                },
+                {
+                  "entity_id": "Jordan",
+                  "exposure": -0.008292
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.008304
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.024968
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.009979
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009767
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.383137
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2018,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.000982
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.127474
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.096094
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.043422
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.009644
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.008273
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.204006
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": 0.00271
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.021
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.002777
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.004434
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.489547
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2020,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Belgium",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.0125
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.009766
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.058177
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "China",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.082741
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.010235
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.007485
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.443439
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.010504
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.007061
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.014738
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.562109
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2017,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": 0.00816
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.012228
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.119947
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.092717
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.008197
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.006564
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.037247
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.004367
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.005476
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.008197
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.293334
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Jordan",
+                  "exposure": -0.008197
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.009368
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.019592
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.002754
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.00813
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.013055
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.551026
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2015,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.074106
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.157989
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.000037
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.081599
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.015779
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.009404
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.020234
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.005759
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.027262
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": -0.011296
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.384587
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2015,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.008409
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.013577
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.000101
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.124319
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008368
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.052452
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.022474
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.005626
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.460377
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.00841
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.009251
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.004622
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008386
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": -0.000028
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.630928
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2021,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Belgium",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008539
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.009216
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.003027
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.010083
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.002075
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.012931
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.183188
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Jordan",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.003774
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.004466
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.011096
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.199381
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2018,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.000933
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": -0.006961
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.075605
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.021886
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.004132
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.008282
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.009468
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.00703
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.008295
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.110932
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.008278
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.017842
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.004064
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.002032
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.250151
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2021,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Belgium",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": -0.012931
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.064659
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": 0.00562
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.001976
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.013953
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.145614
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Jordan",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.000049
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.026686
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.008535
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.256263
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2016,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008314
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.009504
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.085131
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.067782
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.12124
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.008389
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.008932
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.002824
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.342968
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Luxembourg"
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.020723
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.009584
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009366
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.627785
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2019,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.002666
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": -0.0105
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.092774
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.122069
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "China",
+                  "exposure": -0.008238
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.014169
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.015187
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.009718
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.01105
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.119704
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008197
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.02298
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.004121
+                },
+                {
+                  "entity_id": "Uae",
+                  "exposure": -0.008805
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.376759
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2016,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.00204
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.011584
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.03398
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.075996
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.002801
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.087911
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.000034
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": -0.002129
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.00619
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.001625
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.23941
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.002808
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.004184
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.019347
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": 0.008264
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008282
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": -0.00559
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.457565
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 8
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": -0.008734
+                },
+                {
+                  "entity_id": "Belgium",
+                  "exposure": -0.008715
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008696
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.011766
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.105453
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": 0.008621
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.124948
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.008734
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": -0.000101
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.008726
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.004254
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.258979
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008734
+                },
+                {
+                  "entity_id": "Jordan",
+                  "exposure": -0.008772
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008646
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.005911
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": -0.000038
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.012106
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.485982
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2014,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.00885
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.0131
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.031165
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.027528
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.00885
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.014564
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.01079
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.283705
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.00885
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.002976
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.003551
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": 0.008772
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008772
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.001553
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.348471
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2019,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008102
+                },
+                {
+                  "entity_id": "Belgium",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008086
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.102773
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.096966
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.008147
+                },
+                {
+                  "entity_id": "China",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.095716
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.010566
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.005826
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.239684
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.010163
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.033827
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008065
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.002933
+                },
+                {
+                  "entity_id": "Uae",
+                  "exposure": -0.00813
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.573474
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2017,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010018
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.029593
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.177368
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.137322
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": -0.002783
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.002089
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.006201
+                },
+                {
+                  "entity_id": "Jordan",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.009183
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.036252
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.008953
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.001344
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.397976
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2017,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": -0.002058
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.047522
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.154147
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008197
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.050572
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.009541
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.013444
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.222447
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.002732
+                },
+                {
+                  "entity_id": "Jordan",
+                  "exposure": -0.008197
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008197
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.006977
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.004938
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": -0.000017
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.010892
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.485556
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2015,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.051492
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.232787
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.04053
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.015779
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.1403
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.002766
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.008621
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": -0.003641
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.474053
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2014,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.008688
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008621
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.08655
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.207867
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008772
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.112433
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.011957
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.006814
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": 0.065864
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008715
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.009574
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008772
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.017468
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.008772
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008634
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.005346
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.363969
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2020,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": -0.008362
+                },
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.00415
+                },
+                {
+                  "entity_id": "Belgium",
+                  "exposure": -0.008238
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010908
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.058222
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.132923
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008246
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.050664
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": 0.008266
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.008229
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.002687
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.385531
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.006331
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": 0.003086
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008181
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009682
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.476321
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2018,
+                "month": 3,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": -0.016554
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.140136
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.062395
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.063656
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.002672
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.15134
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.001332
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.005883
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.009445
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.006802
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.437615
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2020,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008405
+                },
+                {
+                  "entity_id": "Belgium",
+                  "exposure": -0.008487
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.000997
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.075309
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.009863
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008475
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.055796
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.007641
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.00853
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.009852
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.339745
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008547
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.01122
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.020232
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.009728
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.50052
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2018,
+                "month": 9,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Australia",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.002418
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.132544
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.050895
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.000819
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": 0.005845
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.009411
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.009642
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.153659
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.04387
+                },
+                {
+                  "entity_id": "South Africa",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.008197
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.006248
+                },
+                {
+                  "entity_id": "Uae",
+                  "exposure": -0.008264
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.385189
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2015,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.001625
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.008307
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.033013
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.015013
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.023352
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.002737
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.000035
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.304982
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.006002
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.008386
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008368
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.003991
+                },
+                {
+                  "entity_id": "Sweden",
+                  "exposure": 0.002754
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.006233
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.375394
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2016,
+                "month": 6,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.002766
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": 0.010714
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": -0.01992
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.098201
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008333
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.141505
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": -0.002629
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": 0.004143
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": -0.008333
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.364841
+                },
+                {
+                  "entity_id": "Jersey",
+                  "exposure": -0.008403
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": -0.010056
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.000853
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.003319
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.622107
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2021,
+                "month": 12,
+                "day": 31
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Argentina",
+                  "exposure": -0.008696
+                },
+                {
+                  "entity_id": "Australia",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "Belgium",
+                  "exposure": -0.008674
+                },
+                {
+                  "entity_id": "Bermuda",
+                  "exposure": -0.000068
+                },
+                {
+                  "entity_id": "Britain",
+                  "exposure": 0.020857
+                },
+                {
+                  "entity_id": "Canada",
+                  "exposure": -0.074724
+                },
+                {
+                  "entity_id": "Chile",
+                  "exposure": 0.008547
+                },
+                {
+                  "entity_id": "France",
+                  "exposure": 0.008621
+                },
+                {
+                  "entity_id": "Germany",
+                  "exposure": -0.005352
+                },
+                {
+                  "entity_id": "Hong Kong",
+                  "exposure": -0.008639
+                },
+                {
+                  "entity_id": "Ireland",
+                  "exposure": 0.010708
+                },
+                {
+                  "entity_id": "Israel",
+                  "exposure": -0.009535
+                },
+                {
+                  "entity_id": "Italy",
+                  "exposure": 0.008621
+                },
+                {
+                  "entity_id": "Japan",
+                  "exposure": -0.22589
+                },
+                {
+                  "entity_id": "Jordan",
+                  "exposure": -0.008666
+                },
+                {
+                  "entity_id": "Luxembourg",
+                  "exposure": 0.008621
+                },
+                {
+                  "entity_id": "Mexico",
+                  "exposure": -0.008639
+                },
+                {
+                  "entity_id": "Netherlands",
+                  "exposure": -0.000917
+                },
+                {
+                  "entity_id": "Switzerland",
+                  "exposure": 0.017176
+                },
+                {
+                  "entity_id": "United States",
+                  "exposure": 1.277728
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
