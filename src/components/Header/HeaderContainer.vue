@@ -1,9 +1,6 @@
 <template>
   <!-- The purpose of this container is to facilitate all complex logic and data fetching for the header component. -->
   <Header
-    :product-list="productList"
-    :header-actions="headerActions"
-    :product-deployments="productDeployments"
     class="debug"
     @product-selected-event="productSelectedEventHandler"
     @header-action-selected-event="headerActionSelectedEventHandler"
@@ -31,6 +28,7 @@ export default {
   data() {
     return {
       productName: "  Visual Workshop",
+      productIcon: "None",
     };
   },
   methods: {

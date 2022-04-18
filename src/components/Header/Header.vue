@@ -104,21 +104,18 @@ export default {
   props: {
     productList: {
       type: Array,
-      required: true,
       default() {
         return [];
       }
     },
     headerActions: {
       type: Array,
-      required: true,
       default() {
         return [];
       }
     },
     productDeployments: {
       type: Array,
-      required: true,
       default() {
         return [];
       }

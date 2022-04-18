@@ -7,41 +7,11 @@
   >
     <v-card-text>
       <v-container>
-        <v-row>
-          <v-col>
-            <div
-              ref="chart"
-              class="line-chart"
-              :style="`height: ${chartHeight}px; width: 100%;`"
-            />
-          </v-col>
-          <v-col
-            ref="legend"
-            class="flex-grow-0"
-            style="flex-basis: 210px;"
-          />
-        </v-row>
-        <v-row>
-          <v-col
-            ref="legendTwo"
-            style="max-height: 100px;"
-          />
-        </v-row>
-        <v-row align="center">
-          <v-col
-            v-for="b in zoomBtns"
-            :key="b.label"
-            class="align"
-          >
-            <v-btn
-              fab
-              small
-              @click="zoomToDates(b)"
-            >
-              {{ b.label }}
-            </v-btn>
-          </v-col>
-        </v-row>
+        <div
+          ref="chart"
+          class="line-chart"
+          :style="`height: ${chartHeight}px; width: 100%;`"
+        />
       </v-container>
     </v-card-text>
   </v-card>
@@ -52,35 +22,11 @@
 import testData from "./testingData/QuarterlyCountryExposure.json";
 import * as am4core from "@amcharts/amcharts4/core";
 import * as am4charts from "@amcharts/amcharts4/charts";
-import moment from "moment";
-import colours from "../../utils/MaterialDesignColours"; //can use these colours if needed
+import { colors as colours } from "@/config/constants"; //can use these colours if needed
 import {mapActions} from "vuex";
 
-const paletteAdobe = [
-  '#00C0C7',
-  '#DA3490',
-  '#47E26F',
-  '#5144D3',
-  '#E8871A',
-  '#9089FA',
-  '#C0C0C0',
-  '#2780EB',
-  '#DFBF03',
-  '#6F38B1',
-  '#268D6C',
-  '#CB6F10',
-];
-
-const dashPatterns = [
-  '3,0',
-  '3,3',
-  '8,4,2,4',
-  '2,5',
-  '8,4'
-];
-
 export default {
-  name: "SectorContributionComparison",
+  name: "CountryExposure",
   props: {
     config: {
       type: Object,
@@ -100,6 +46,11 @@ export default {
         return [];
       }
     },
+    maxCountries:
+      {
+        type: Number,
+        default: 5
+      },
   },
   data() {
     return {
@@ -107,11 +58,7 @@ export default {
       loading: false,
       skipQuery: true,
       skipPoll: true,
-      opIDs: [],
       chart: null,
-      legend: null, // sectors
-      legendTwo: null, // branches
-      activeSector: null, // it stores the corresponding LegendDataItem
       zoomBtns: [
         {
           label: '1wk',
@@ -160,7 +107,11 @@ export default {
     dev() {
       // In development mode the component will then use the default example data object instead of making graphql hits. View the component at http://localhost:3000/playground in dev mode
       return process.env.NODE_ENV === 'development';
-    }
+    },
+    chartData()
+    {
+      return this.wrangleData(testData);
+    },
   },
   watch:
   {
@@ -203,6 +154,88 @@ export default {
     ...mapActions("global", [
       "closePopup", "pushSnackbar", "closeSnackbar"
     ]),
+    wrangleData(primaryJson)
+    {
+      /* we create a nested structure
+      {
+        "2022-03-15":
+        [
+          {
+            "country": "USA",
+            "branches":
+            [
+              {
+                "branch": "North",
+                "exposure": 1.2
+              },
+              {
+                "branch": "South",
+                "exposure": 0.8
+              },
+            ]
+          },
+          {
+            "country": "Germany",
+            "branches":
+            [
+              {
+                "branch": "North",
+                "exposure": 1.5
+              },
+              {
+                "branch": "South",
+                "exposure": 0.2
+              },
+            ]
+          },
+        ]
+      }
+       */
+      const temp = {};
+      primaryJson.exposures.forEach(branch =>
+      {
+        branch.exposures_branch.average_portfolio_exposures_per_period.historical_exposures.forEach(info =>
+        {
+          const branchName = branch.branch_display_name;
+          const dateValue = Object.values(info.effective_date).map(item => item < 10 ? '0' + item : item).join('-');
+          if (!temp[dateValue]) temp[dateValue] = {};
+          const levelOne = temp[dateValue];
+          info.entity_exposures.forEach(country =>
+          {
+            if (!levelOne[country.entity_id]) levelOne[country.entity_id] = {};
+            const levelTwo = levelOne[country.entity_id];
+            levelTwo[branchName] = country.exposure;
+          });
+        });
+      });
+      const branches = {};
+      // sort countries
+      Object.keys(temp).forEach(date =>
+      {
+        temp[date] = Object.entries(temp[date]).map(([key, val]) => ({
+          country: key,
+          branches: Object.entries(val).map(([branch, exposure]) =>
+          {
+            branches[branch] = true;
+            return {
+              branch,
+              exposure,
+            };
+          })
+        })).sort((a, b) =>
+        {
+          const totalExposureA = a.branches.reduce((acc, val) => acc + val.exposure, 0);
+          const totalExposureB = b.branches.reduce((acc, val) => acc + val.exposure, 0);
+          a.total = totalExposureA;
+          b.total = totalExposureB;
+          return totalExposureB - totalExposureA;
+        });
+      });
+      return {
+        branches: Object.keys(branches),
+        wrangled: temp,
+      };
+    },
     createPlot() {
       //create chart element
       const chart = am4core.create(
@@ -211,307 +244,175 @@ export default {
       );
 
       chart.maxHeight = this.chartHeight;
-      chart.maskBullets = false;
 
-      const xAxis = chart.xAxes.push(new am4charts.DateAxis());
-      xAxis.renderer.minGridDistance = 50;
-      xAxis.baseInterval = {
-        timeUnit: 'day',
-        count: 1
-      };
-      xAxis.skipEmptyPeriods = true;
-      xAxis.tooltipDateFormat = 'MMMM d, yyyy'; // format for the X cursor marker
-      xAxis.dateFormats.setKey('day', 'MMM, yyyy');
-      xAxis.periodChangeDateFormats.setKey('day', 'MMM, yyyy');
+      // add cursor and scrollbar
+      chart.cursor = new am4charts.XYCursor();
+      chart.scrollbarX = new am4core.Scrollbar();
+      chart.scrollbarY = new am4core.Scrollbar();
 
-      const valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
-      valueAxis.renderer.minGridDistance = 25;
-      valueAxis.renderer.minWidth = 35;
-      valueAxis.numberFormatter.numberFormat = '0%';
+      const xAxis = chart.xAxes.push(new am4charts.CategoryAxis());
+      xAxis.dataFields.category = "category";
+      xAxis.renderer.minGridDistance = 20;
+      xAxis.renderer.grid.template.location = 0;
+      xAxis.dataItems.template.text = "{country}";
+      xAxis.adapter.add("tooltipText", function(txt, target) // eslint-disable-line no-unused-vars
+      {
+        return xAxis.tooltipDataItem.dataContext.country + ' (' + xAxis.tooltipDataItem.dataContext.date + ')';
+      });
+      xAxis.renderer.labels.template.rotation = -90;
+      xAxis.renderer.labels.template.horizontalCenter = 'right';
+      xAxis.renderer.labels.template.verticalCenter = 'middle';
 
-      // add cursors and disable zooming
-      const cursor = new am4charts.XYCursor();
-      cursor.behavior = 'zoomX';
-      cursor.xAxis = xAxis;
-      cursor.maxTooltipDistance = -1;
-      chart.cursor = cursor;
+      chart.yAxes.push(new am4charts.ValueAxis());
 
       let legend = new am4charts.Legend();
-      legend.position = 'right';
-      legend.valign = 'top';
-      legend.width = 210;
-      legend.scrollable = true;
-      legend.labels.template.truncate = false;
-      legend.itemContainers.template.togglable = false;
-
-      // toggle sectors
-      legend.itemContainers.template.events.on("hit", (ev) =>
-      {
-        this.toggleSector(ev.target.dataItem);
-      });
-
-      // use square markers instead of the default horizontal lines
-      legend.useDefaultMarker = true;
-      let markerTemplate = legend.markers.template;
-      markerTemplate.width = 15;
-      markerTemplate.height = 15;
-      let marker = markerTemplate.children.getIndex(0);
-      marker.fillOpacity = 1;
-
-      // define "active" state
-      let as = marker.states.create('active');
-      as.properties.fillOpacity = 0.1;
-      const labelTemplate = legend.labels.template;
-      labelTemplate.fillOpacity = 1;
-      as = labelTemplate.states.create('active');
-      as.properties.fillOpacity = 0.6;
-
-      // create a container for our custom legend
-      let legendContainer = am4core.create(this.$refs.legend, am4core.Container);
-      legendContainer.width = am4core.percent(100);
-      legendContainer.height = am4core.percent(100);
-      legend.parent = legendContainer;
-      this.legend = legend;
-
-      // create another legend for the branches and show their corresponding dash style
-      legend = new am4charts.Legend();
       legend.position = 'bottom';
-      legend.itemContainers.template.togglable = false;
-      legend.useDefaultMarker = true;
-      markerTemplate = legend.markers.template;
-      markerTemplate.disposeChildren();
-      markerTemplate.width = 35;
-      markerTemplate.height = 16;
-      // add custom Sprite
-      const dash = markerTemplate.createChild(am4core.Line);
-      dash.width = 35;
-      dash.height = 16;
-      dash.strokeWidth = 4;
-      dash.x1 = 0;
-      dash.x2 = 34;
-      dash.y1 = 7;
-      dash.y2 = 7;
-      dash.propertyFields.stroke = 'stroke';
-      dash.propertyFields.strokeDasharray = 'dash';
-
-      legendContainer = am4core.create(this.$refs.legendTwo, am4core.Container);
-      legendContainer.width = am4core.percent(100);
-      legendContainer.height = am4core.percent(100);
-      legend.parent = legendContainer;
-      this.legendTwo = legend;
+      chart.legend = legend;
 
       this.chart = chart;
     },
-    zoomToDates({ value, unit }) {
-      const date = moment()
-          .subtract(value, unit)
-          .toDate();
-      this.chart.xAxes.getIndex(0).zoomToDates(date, new Date());
-    },
-    wrangleData(primaryJson)
-    {
-      // we create a nested structure - branch/sector/dataPointsArray
-      const result = {};
-      let branchNode;
-      primaryJson.data.batchContributionMetrics.forEach(branch =>
-      {
-        branch.historicalContributions.forEach(info =>
-        {
-          if (!result[branch.branchName]) result[branch.branchName] = {};
-          branchNode = result[branch.branchName];
-          info.contributions.forEach(contrib =>
-          {
-            if (!branchNode[contrib.id]) branchNode[contrib.id] = [];
-            branchNode[contrib.id].push({
-              x: info.effectiveDate,
-              value: contrib.contribution,
-              percent: 100 * contrib.contribution,
-              branch: branch.branchName,
-              sector: contrib.id,
-            });
-          });
-        });
-      });
-      return result;
-    },
     updateChart(data)
     {
+      const xAxis = this.chart.xAxes.getIndex(0);
       const series = this.chart.series;
       // we have to reset the series - because we do not recreate the chart when updating the values (to speedup the things a little)
       while (series.length > 0) series.removeIndex(0).dispose();
-      // clear the legend
-      this.legend.data = [];
+      const ranges = xAxis.axisRanges;
+      ranges.clear();
 
-      const legendItems = {};
-      const branchItems = [];
-      // create series
-      Object.keys(data).forEach((branch, bIndex) =>
+      // create series - https://codepen.io/team/amcharts/pen/OJLxoPd
+      let colorIndex = 0;
+      const categories = {};
+      data.branches.forEach(bName =>
       {
-        const branchNode = data[branch];
-        Object.keys(branchNode).forEach((sector, sIndex) =>
+        const column = series.push(new am4charts.ColumnSeries());
+        column.dataFields.categoryX = 'category';
+        column.dataFields.valueY = 'value';
+        column.dataFields.branch = 'branch';
+        column.branch = bName; // we need both - otherwise the property is missing from "currentSeries" in the tooltip adapter below
+        column.name = bName;
+        column.fill = am4core.color(colours[colorIndex++ % colours.length]);
+        column.strokeWidth = 2;
+        column.columns.template.strokeWidth = 0;
+        column.columns.template.width = am4core.percent(80);
+        column.adapter.add('tooltipHTML', (txt, target) =>
         {
-          const seria = this.createSeries(bIndex, branch, sIndex, sector, branchNode[sector].sort((a, b) => a.x < b.x ? -1 : a.x > b.x ? +1 : 0)); // we must sort data points by date, because amCharts does not do it for us
-          if (!legendItems[sector]) legendItems[sector] = {
-            name: sector,
-            fill: am4core.color(paletteAdobe[sIndex % paletteAdobe.length]),
-            branches: {},
-          };
-          legendItems[sector].branches[branch] = seria;
-        });
-        branchItems.push({
-          name: branch,
-          stroke: am4core.color('#C0C0C0'),
-          dash: dashPatterns[bIndex],
-        });
-      });
-      this.legend.data = Object.values(legendItems); // sectors
-      this.legendTwo.data = branchItems; // branches
-    },
-    createSeries(bIndex, branch, sIndex, sector, data)
-    {
-      const lineSeries = this.chart.series.push(new am4charts.LineSeries());
-      lineSeries.dataFields.dateX = 'x';
-      lineSeries.dataFields.valueY = 'value';
-      lineSeries.dataFields.branch = 'branch';
-      lineSeries.dataFields.sector = 'sector';
-      lineSeries.branch = branch; // we need these both as dataField and direct property - they are used in different way
-      lineSeries.sector = sector;
-      lineSeries.name = `${branch} - ${sector}`;
-      lineSeries.data = data;
-
-      lineSeries.adapter.add('tooltipHTML', (txt, target) =>
-      {
-        const currentSeries = target.tooltipDataItem;
-        const idx = currentSeries.index;
-        // don't show tooltip for dimmed series or series from a sector which is different from the currently hovered
-        if (idx < 0 || (this.activeSector && target.tooltipDataItem.sector !== this.activeSector.dataContext.name)) return '';
-        const activeSector = this.activeSector;
-        let text = "<table><thead><tr><th style='padding: 0;'>Branch</th><th style='padding: 0 5px;'>Sector</th><th style='padding: 0;'>Contribution</th></tr></thead><tbody>";
-        this.chart.series.each(item =>
-        {
-          if (!item.isActive && (activeSector ? true : currentSeries.sector === item.sector))
+          const currentSeries = target.tooltipDataItem;
+          const idx = currentSeries.index;
+          if (idx < 0) return '';
+          let text = '';
+          this.chart.series.each(item =>
           {
-            text += '<tr><td style="padding: 0; color:' + item.stroke.hex + ';">' +
-                    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 10" width="28" height="16" style="vertical-align: middle;">' +
-                    '<line x1="0" x2="28" y1="5" y2="5" stroke="currentColor" stroke-width="2" stroke-dasharray="' + item.strokeDasharray + '"></line></svg> ' + item.branch +
-                    '</td><td style="padding: 0 5px;">' + item.sector +
-                    '</td><td align="right" style="padding: 0; color:' + item.stroke.hex + ';">' + item.data[idx].percent.toFixed(2) + '%</td></tr>';
-          }
-        });
-        text += '</tbody></table>';
-        return text;
-      });
-      lineSeries.tooltip.fontSize = 12;
-      lineSeries.tooltip.background.strokeWidth = 0;
-      lineSeries.tooltip.getFillFromObject = false;
-      lineSeries.tooltip.background.fill = am4core.color('#fff');
-      lineSeries.tooltip.label.fill = am4core.color('#000');
-      // Prevent cross-fading of tooltips
-      lineSeries.tooltip.defaultState.transitionDuration = 0;
-      lineSeries.tooltip.hiddenState.transitionDuration = 0;
-
-      // use a dash pattern for different branches
-      lineSeries.strokeDasharray = dashPatterns[bIndex];
-      lineSeries.strokeWidth = 2;
-      lineSeries.strokeOpacity = 1;
-      lineSeries.stroke = am4core.color(paletteAdobe[sIndex % paletteAdobe.length]);
-
-      // Enable interactions on series segments
-      const segment = lineSeries.segments.template;
-      segment.interactionsEnabled = true;
-      segment.events.on('hit', (ev) =>
-      {
-        const series = ev.target.dataItem.component.tooltipDataItem;
-        const legendIndex = this.legend.data.findIndex(item => item.name === series.sector);
-        this.toggleSector(this.legend.data[legendIndex].legendDataItem);
-      });
-
-      // "active" is actually used for dimming, while "standout" makes the lines thicker
-      let hs = segment.states.create("active");
-      hs.properties.strokeOpacity = 0.2;
-      hs.properties.strokeWidth = 2;
-      hs = segment.states.create('standout');
-      hs.properties.strokeWidth = 5;
-
-      const bullet = lineSeries.bullets.push(new am4charts.CircleBullet());
-      bullet.circle.stroke = am4core.color('#fff');
-      bullet.circle.strokeWidth = 2;
-      bullet.circle.fill = lineSeries.stroke;
-      bullet.scale = 0;
-      bullet.events.on('hit', (ev) =>
-      {
-        const series = ev.target.dataItem;
-        const legendIndex = this.legend.data.findIndex(item => item.name === series.sector);
-        this.toggleSector(this.legend.data[legendIndex].legendDataItem);
-      });
-
-      hs = bullet.states.create('hover');
-      hs.properties.scale = 1;
-
-      return lineSeries;
-    },
-    toggleSector(legendItem)
-    {
-      if (legendItem.toggled)
-      {
-        this.activeSector = null;
-        // restore all sectors
-        legendItem.toggled = false;
-        this.legend.dataItems.each(item =>
-        {
-          item.marker.isActive = false;
-          item.label.isActive = false;
-          Object.values(item.dataContext.branches).forEach(series =>
-          {
-            series.isActive = false;
-            series.bullets.getIndex(0).visible = true;
-            series.segments.each(segment =>
+            if (item.branch === currentSeries.branch)
             {
-              segment.isActive = false;
-              segment.setState('default'); // remove standout
+              const dataPoint = item.data[idx];
+              if (dataPoint.country === 'Other')
+              {
+                dataPoint.countries.forEach(country =>
+                {
+                  const branch = country.branches.find(branch => branch.branch === dataPoint.branch);
+                  if (branch)
+                  {
+                    text += '<tr><td>' + country.country + ':</td><td align="right">' + branch.exposure.toFixed(6) + '</td></tr>';
+                  }
+                });
+                text = "<table><thead><tr style='font-weight: bold;'><td>Overall:</td><td align='right'>" + currentSeries.dataContext.value.toFixed(6) + "</td></tr></thead><tbody>" + text + '</tbody></table>';
+              }
+              else text = dataPoint.value || 2;
+            }
+          });
+          return text || 2;
+        });
+
+        const values = [];
+        Object.entries(data.wrangled).sort((a, b) =>
+        {
+          if (a[0] < b[0]) return +1;
+          if (a[0] > b[0]) return -1;
+          return 0;
+        }).forEach(([dateValue, countries]) =>
+        {
+          const topN = countries.slice(0, this.maxCountries);
+          if (countries.length > topN.length)
+          {
+            const other = {};
+            const restCountries = countries.slice(this.maxCountries);
+            restCountries.forEach(item =>
+            {
+              item.branches.forEach(branch =>
+              {
+                other[branch.branch] = (other[branch.branch] || 0) + branch.exposure;
+              });
+            });
+            topN.push({
+              country: 'Other',
+              branches: Object.entries(other).map(([bName, exposure]) => ({
+                branch: bName,
+                exposure,
+              })),
+              countries: restCountries,
+            });
+          }
+          topN.forEach(item =>
+          {
+            const category = dateValue + '_' + item.country;
+            categories[category] = true;
+            item.branches.forEach(branch =>
+            {
+              if (branch.branch === bName)
+              {
+                values.push({
+                  category,
+                  value: branch.exposure,
+                  date: dateValue,
+                  country: item.country,
+                  branch: bName,
+                  countries: item.countries,
+                });
+              }
             });
           });
+          this.createRanges(xAxis, dateValue + '_' + topN[0].country, dateValue + '_' + topN[topN.length - 1].country, dateValue);
         });
-      }
-      else
-      {
-        this.activeSector = legendItem;
-        // dim all other sectors
-        this.legend.dataItems.each(item =>
-        {
-          if (item !== legendItem)
-          {
-            item.toggled = false;
-            item.marker.isActive = true;
-            item.label.isActive = true;
-            Object.values(item.dataContext.branches).forEach(series =>
-            {
-              series.isActive = true;
-              series.bullets.getIndex(0).visible = false;
-              series.segments.each(segment =>
-              {
-                segment.isActive = true;
-              });
-            });
-          }
-          else
-          {
-            item.toggled = true;
-            item.marker.isActive = false;
-            item.label.isActive = false;
-            Object.values(item.dataContext.branches).forEach(series =>
-            {
-              series.isActive = false;
-              series.bullets.getIndex(0).visible = true;
-              series.segments.each(segment =>
-              {
-                segment.isActive = false;
-                segment.setState('standout');
-              });
-            });
-          }
-        });
-      }
+        column.data = values;
+      });
+      // it is very important to set the axis data - otherwise the whole chart will be empty (https://www.amcharts.com/docs/v4/concepts/series/#Note_about_Series_data_and_Category_axis)
+      xAxis.data = Object.keys(categories).map(category => ({
+        category,
+        country: category.split('_')[1],
+      }));
+    },
+    createRanges(axis, from, to, label)
+    {
+      const range = axis.axisRanges.create();
+      range.category = from;
+      range.endCategory = to;
+      range.label.text = label;
+      range.label.rotation = 0;
+      range.label.paddingTop = 100;
+      range.label.location = 0.5;
+      range.label.horizontalCenter = "middle";
+      range.label.fontSize = 12;
+      range.label.fontWeight = "bolder";
+      range.label.truncate = true;
+      range.label.tooltipText = label;
+      range.locations.category = 0;
+      range.locations.endCategory = 1;
+      range.grid.disabled = true;
+
+      // add a tick on the border between dates
+      const tickRange = axis.axisRanges.create();
+      tickRange.category = to;
+      tickRange.label.text = '';
+      tickRange.grid.strokeOpacity = 1;
+      tickRange.grid.strokeWidth = 1;
+      tickRange.locations.category = 1;
+      tickRange.tick.disabled = false;
+      tickRange.tick.stroke = am4core.color('#000');
+      tickRange.tick.strokeWidth = 1;
+      tickRange.tick.strokeOpacity = 1;
+      tickRange.tick.length = 120;
+      tickRange.tick.location = 0;
     }
   },
 };
