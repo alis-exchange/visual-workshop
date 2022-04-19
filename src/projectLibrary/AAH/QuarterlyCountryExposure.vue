@@ -257,7 +257,7 @@ export default {
       xAxis.dataItems.template.text = "{country}";
       xAxis.adapter.add("tooltipText", function(txt, target) // eslint-disable-line no-unused-vars
       {
-        return xAxis.tooltipDataItem.dataContext.country + ' (' + xAxis.tooltipDataItem.dataContext.date + ')';
+        return xAxis.tooltipDataItem.dataContext.country + ' (' + xAxis.tooltipDataItem.dataContext.category.split('_')[0] + ')';
       });
       xAxis.renderer.labels.template.rotation = -90;
       xAxis.renderer.labels.template.horizontalCenter = 'right';
@@ -318,10 +318,10 @@ export default {
                 });
                 text = "<table><thead><tr style='font-weight: bold;'><td>Overall:</td><td align='right'>" + currentSeries.dataContext.value.toFixed(6) + "</td></tr></thead><tbody>" + text + '</tbody></table>';
               }
-              else text = dataPoint.value || 2;
+              else text = dataPoint.country + ': ' + (100 * dataPoint.value).toFixed(3) + '%';
             }
           });
-          return text || 2;
+          return text;
         });
 
         const values = [];
@@ -379,7 +379,7 @@ export default {
       // it is very important to set the axis data - otherwise the whole chart will be empty (https://www.amcharts.com/docs/v4/concepts/series/#Note_about_Series_data_and_Category_axis)
       xAxis.data = Object.keys(categories).map(category => ({
         category,
-        country: category.split('_')[1],
+        country: category.split('_')[1], // we need this for tooltips
       }));
     },
     createRanges(axis, from, to, label)

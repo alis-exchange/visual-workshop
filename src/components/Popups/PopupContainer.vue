@@ -36,6 +36,7 @@
 
       <v-card-text
         id="section-main"
+        class="flex-grow-1"
       >
         <div
           class="slot-area mb-n4"
@@ -45,7 +46,6 @@
         </div>
       </v-card-text>
 
-      <v-spacer />
       <v-card-actions>
         <v-spacer />
         <slot name="actions" />
