@@ -12,7 +12,7 @@
         class="ml-3 mb-8"
         style="max-width: 280px"
       >
-        <template v-slot:prepend-inner>
+        <template #prepend-inner>
           <v-icon left>
             search
           </v-icon>
@@ -35,7 +35,7 @@
           :height="tableHeight"
           :search="filters.search"
         >
-          <template v-slot:[`item.more`]="{ item }">
+          <template slot="item.more" slot-scope="{ item }">
             <v-btn
               icon
               size="sm"

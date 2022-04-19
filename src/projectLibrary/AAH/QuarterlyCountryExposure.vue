@@ -244,6 +244,25 @@ export default {
       );
 
       chart.maxHeight = this.chartHeight;
+      chart.events.on('ready', () =>
+      {
+        // try to set the horizontal scrollbar so that only the last 4 days are on the screen
+        const xAxis = this.chart.xAxes.getIndex(0);
+        let endIndex = xAxis.data.length - 1;
+        let differences = 0;
+        let currentValue = xAxis.data[endIndex].category.substr(0, 10);
+        while (endIndex && differences < 4) // number of partitions to show
+        {
+          endIndex--;
+          const newValue = xAxis.data[endIndex].category.substr(0, 10);
+          if (newValue !== currentValue)
+          {
+            currentValue = newValue;
+            differences++;
+          }
+        }
+        xAxis.zoomToIndexes(endIndex + 1, xAxis.data.length - 1);
+      });
 
       // add cursor and scrollbar
       chart.cursor = new am4charts.XYCursor();
@@ -263,7 +282,8 @@ export default {
       xAxis.renderer.labels.template.horizontalCenter = 'right';
       xAxis.renderer.labels.template.verticalCenter = 'middle';
 
-      chart.yAxes.push(new am4charts.ValueAxis());
+      const yAxis = chart.yAxes.push(new am4charts.ValueAxis());
+      yAxis.numberFormatter.numberFormat = '0%';
 
       let legend = new am4charts.Legend();
       legend.position = 'bottom';
@@ -313,10 +333,10 @@ export default {
                   const branch = country.branches.find(branch => branch.branch === dataPoint.branch);
                   if (branch)
                   {
-                    text += '<tr><td>' + country.country + ':</td><td align="right">' + branch.exposure.toFixed(6) + '</td></tr>';
+                    text += '<tr><td>' + country.country + ':</td><td align="right">' + (100 * branch.exposure).toFixed(3) + '</td></tr>';
                   }
                 });
-                text = "<table><thead><tr style='font-weight: bold;'><td>Overall:</td><td align='right'>" + currentSeries.dataContext.value.toFixed(6) + "</td></tr></thead><tbody>" + text + '</tbody></table>';
+                text = "<table><thead><tr style='font-weight: bold;'><td>Overall:</td><td align='right'>" + (100 * currentSeries.dataContext.value).toFixed(3) + "</td></tr></thead><tbody>" + text + '</tbody></table>';
               }
               else text = dataPoint.country + ': ' + (100 * dataPoint.value).toFixed(3) + '%';
             }

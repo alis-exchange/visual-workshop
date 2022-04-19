@@ -6,13 +6,13 @@
     @header-action-selected-event="headerActionSelectedEventHandler"
     @router-event="routerEventHandler"
   >
-    <template v-slot:productName>
+    <template #productName>
       {{ productName }}
     </template>
-    <template v-slot:productIcon>
+    <template #productIcon>
       {{ productIcon }}
     </template>
-    <template v-slot:search />
+    <template #search />
   </Header>
 </template>
 
