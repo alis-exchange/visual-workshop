@@ -1,42 +1,41 @@
 <template>
   <v-card
-      :loading="loading"
-      class="rounded-0"
-      width="100%"
-      height="100%"
+    class="rounded-0"
+    width="100%"
+    height="100%"
   >
     <v-card-text>
       <v-container>
         <v-row>
           <v-col>
             <div
-                ref="chart"
-                class="line-chart"
-                :style="`height: ${chartHeight}px; width: 100%;`"
+              ref="chart"
+              class="line-chart"
+              :style="`height: ${chartHeight}px; width: 100%;`"
             />
           </v-col>
           <v-col
-              ref="legend"
-              class="flex-grow-0"
-              style="flex-basis: 210px;"
+            ref="legend"
+            class="flex-grow-0"
+            style="flex-basis: 210px;"
           />
         </v-row>
         <v-row>
           <v-col
-              ref="legendTwo"
-              style="max-height: 100px;"
+            ref="legendTwo"
+            style="max-height: 100px;"
           />
         </v-row>
         <v-row align="center">
           <v-col
-              v-for="b in zoomBtns"
-              :key="b.label"
-              class="align"
+            v-for="b in zoomBtns"
+            :key="b.label"
+            class="align"
           >
             <v-btn
-                fab
-                small
-                @click="zoomToDates(b)"
+              fab
+              small
+              @click="zoomToDates(b)"
             >
               {{ b.label }}
             </v-btn>
@@ -423,7 +422,7 @@ export default {
         if (idx < 0) return '';
         let text = "<table><thead><tr><th style='padding: 0;'>Branch</th><th style='padding: 0 5px;'>Sector</th><th style='padding: 0;'>Exposure</th></tr></thead><tbody>";
         this.chart.series.each(item => {
-          if (!item.isActive && currentSeries.sector === item.sector) {
+          if (!item.isActive && currentSeries.sector === item.sector && idx < item.data.length) {
             text += '<tr><td style="padding: 0; color:' + item.stroke.hex + ';">' +
                 '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 10" width="28" height="16" style="vertical-align: middle;">' +
                 '<line x1="0" x2="28" y1="5" y2="5" stroke="currentColor" stroke-width="2" stroke-dasharray="' + item.strokeDasharray + '"></line></svg> ' + item.branch +
