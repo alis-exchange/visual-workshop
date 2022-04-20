@@ -1,6 +1,5 @@
 <template>
   <v-card
-    :loading="loading"
     class="rounded-0"
     width="100%"
     height="100%"
@@ -105,7 +104,6 @@ export default {
   data() {
     return {
       chartHeight: 600,
-      loading: false,
       skipQuery: true,
       skipPoll: true,
       opIDs: [],
@@ -468,7 +466,7 @@ export default {
         let footer = '';
         this.chart.series.each(item =>
         {
-          if (item.sector === 'Total att.' && currentSeries.sector !== item.sector)
+          if (item.sector === 'Total att.' && currentSeries.sector !== item.sector && idx < item.data.length)
           {
             switch (item.kind)
             {

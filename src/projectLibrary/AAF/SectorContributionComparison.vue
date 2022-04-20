@@ -1,6 +1,5 @@
 <template>
   <v-card
-    :loading="loading"
     class="rounded-0"
     width="100%"
     height="100%"
@@ -404,7 +403,7 @@ export default {
         let text = "<table><thead><tr><th style='padding: 0;'>Branch</th><th style='padding: 0 5px;'>Sector</th><th style='padding: 0;'>Contribution</th></tr></thead><tbody>";
         this.chart.series.each(item =>
         {
-          if (!item.isActive && currentSeries.sector === item.sector)
+          if (!item.isActive && currentSeries.sector === item.sector && idx < item.data.length)
           {
             text += '<tr><td style="padding: 0; color:' + item.stroke.hex + ';">' +
                     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 10" width="28" height="16" style="vertical-align: middle;">' +
