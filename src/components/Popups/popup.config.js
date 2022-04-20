@@ -313,7 +313,7 @@ export const PopupResources = {
         developerGithub: '',
         developerLinkedin: 'https://www.linkedin.com/in/ivogelov-web-developer',
         projectDescription: 'Country Exposure',
-        devTime: '3.5 hours',
+        devTime: '6 hours',
         comments: '',
 
         //Tags that can be given to the project. You could use this to categorise a project. For example give each line chart component a tag "line chart". Or assign a tag that can be used as an additional keyword match when searching for a project.
