@@ -1,0 +1,1880 @@
+{
+  "exposures": [
+    {
+      "branch": "portfolios/PXPMMLBYMRJ7/branches/d1",
+      "branch_display_name": "Model 290 Version 22 - Equally weighted top decile",
+      "exposures_branch": {
+        "average_portfolio_exposures_per_period": {
+          "historical_exposures": [
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 2,
+                "day": 6
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.035409
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.128383
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.025671
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.035503
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.26162
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.060988
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.202846
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.077354
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.094643
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.017438
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.051736
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.00841
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 2,
+                "day": 27
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.008907
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.136531
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.060412
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.234235
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.061807
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.200865
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.086331
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.078961
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008934
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.106519
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.016497
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 3
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.026053
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.061309
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.053388
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.043709
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.395052
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.034884
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.095982
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.076831
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.017633
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008698
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.15963
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.026832
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 10
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.033985
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.060592
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.04518
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.07943
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.34055
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.026841
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.121082
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.109137
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.051814
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008516
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.113693
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.009179
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 16
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.085996
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.121602
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.094882
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.017366
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.104767
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.092977
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.190163
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.16274
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.069287
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.043274
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.016946
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 3,
+                "day": 27
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.034834
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.069087
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.087344
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.017705
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.366436
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.042883
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.120965
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.087049
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.043549
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008857
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.103836
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.017456
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 17
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.086861
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.053284
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.042939
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.008822
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.215944
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.069536
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.173936
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.182621
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.043852
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.104932
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.017274
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 2,
+                "day": 13
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.018218
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.163614
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.034113
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.008627
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.302592
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.025941
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.171638
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.051583
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.061886
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.11946
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.042328
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 3,
+                "day": 13
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.035291
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.070966
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.059434
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.0252
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.333339
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.0344
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.121174
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.122007
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.04376
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.137514
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.016914
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 3,
+                "day": 6
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.017157
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.084621
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.034719
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.008769
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.331078
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.035579
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.186171
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.104912
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.008498
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.143703
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.044794
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 2,
+                "day": 20
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.008753
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.12877
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.008579
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.231661
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.059815
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.266532
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.113313
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.087467
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.077609
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.017501
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 2
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.042888
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.157674
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.052499
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.017222
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.241234
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.051954
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.218059
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.051685
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.12275
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008767
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.026472
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.008798
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 3,
+                "day": 20
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.026443
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.061335
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.043613
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.042013
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.295758
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.044169
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.148713
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.123583
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.068931
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008857
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.128227
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.008359
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 24
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.086255
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.05477
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.041583
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.008898
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.217731
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.068574
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.174149
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.182341
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.043686
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.104955
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.01706
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 23
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.034684
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.153884
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.078738
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.025831
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.154856
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.061356
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.18199
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.101397
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.077869
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.094953
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.034441
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.042529
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.111226
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.077574
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.026396
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.175568
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.06856
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.144676
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.136314
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.085999
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008363
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.079017
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.043778
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 9
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.04201
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.155799
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.053279
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.017982
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.250125
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.049477
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.2145
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.049889
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.122698
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.009139
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.026388
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.008714
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "branch": "portfolios/PXPMMLBYMRJ7/branches/d10",
+      "branch_display_name": "Model 290 Version 22 - Equally weighted bottom decile",
+      "exposures_branch": {
+        "average_portfolio_exposures_per_period": {
+          "historical_exposures": [
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 2,
+                "day": 6
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.097422
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.103075
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.078471
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.008817
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.053085
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.174438
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.130441
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.128869
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.078085
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008668
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.03434
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.104288
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 2,
+                "day": 27
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.059986
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.132197
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.102993
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.017387
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.051785
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.140793
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.163182
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.149403
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.077558
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008864
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.043486
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.052366
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 3
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.079589
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.105046
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.121451
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.017992
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.052141
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.185954
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.138383
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.141282
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.09632
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.026328
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.035515
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 10
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.053657
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.1364
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.079428
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.017525
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.087722
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.150552
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.121792
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.191592
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.098549
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.027216
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.027433
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 16
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.069321
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.13991
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.068837
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.009098
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.053397
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.095365
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.173614
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.180833
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.104418
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.052009
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.053199
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 3,
+                "day": 27
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.052355
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.078947
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.112622
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.035346
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.070871
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.158037
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.166676
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.150366
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.113509
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.01722
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.034999
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 17
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.087819
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.165223
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.123704
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.008884
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.052706
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.165354
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.087682
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.202914
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.061924
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008874
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.017344
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.008905
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 2,
+                "day": 13
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.094914
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.104049
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.131028
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.02618
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.051666
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.174622
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.11379
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.060259
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.139829
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.025601
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.069285
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 3,
+                "day": 13
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.088622
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.141636
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.112832
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.008658
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.044039
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.173666
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.149706
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.113281
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.080056
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.043486
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.044018
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 3,
+                "day": 6
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.13877
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.067144
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.103547
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.043162
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.165324
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.139551
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.138836
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.080331
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008614
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.035325
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.071564
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 2,
+                "day": 20
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.086834
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.120237
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.106477
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.034682
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.060774
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.148909
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.088055
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.126202
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.123278
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.026145
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.069827
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 2
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.060988
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.052564
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.052951
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.043929
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.104355
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.155271
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.078584
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.274785
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.088746
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.017571
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.06187
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 3,
+                "day": 20
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.077377
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.199693
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.093807
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.016911
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.034324
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.147474
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.146331
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.118439
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.112992
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.016682
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.025919
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 4,
+                "day": 24
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.08852
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.165412
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.122263
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.008968
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.053296
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.161687
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.088455
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.20516
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.062327
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008963
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.017331
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.009193
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 23
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.06195
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.113306
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.104853
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.008731
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.043545
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.095563
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.1812
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.190196
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.087888
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008429
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.042864
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.061475
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 30
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.069164
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.10337
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.104462
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.008502
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.017929
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.071384
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.121245
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.153246
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.155416
+                },
+                {
+                  "entity_id": "N.A.",
+                  "exposure": 0.008913
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.097685
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.088685
+                }
+              ]
+            },
+            {
+              "effective_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 9
+              },
+              "entity_exposures": [
+                {
+                  "entity_id": "Communication Services",
+                  "exposure": 0.059998
+                },
+                {
+                  "entity_id": "Consumer Discretionary",
+                  "exposure": 0.052275
+                },
+                {
+                  "entity_id": "Consumer Staples",
+                  "exposure": 0.054554
+                },
+                {
+                  "entity_id": "Energy",
+                  "exposure": 0.046359
+                },
+                {
+                  "entity_id": "Financials",
+                  "exposure": 0.10777
+                },
+                {
+                  "entity_id": "Health Care",
+                  "exposure": 0.155217
+                },
+                {
+                  "entity_id": "Industrials",
+                  "exposure": 0.08181
+                },
+                {
+                  "entity_id": "Information Technology",
+                  "exposure": 0.266036
+                },
+                {
+                  "entity_id": "Materials",
+                  "exposure": 0.088013
+                },
+                {
+                  "entity_id": "Real Estate",
+                  "exposure": 0.017594
+                },
+                {
+                  "entity_id": "Utilities",
+                  "exposure": 0.062677
+                }
+              ]
+            }
+          ]
+        },
+        "pct_missing_data": 0.004908835904628331
+      }
+    }
+  ]
+}
+

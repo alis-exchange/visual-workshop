@@ -5,6 +5,7 @@ import OverlappingHistograms from "@/projectLibrary/AAD/OverlappingHistograms/Ov
 import DailyReturnIndexBottom from "@/projectLibrary/AAE/DailyReturnIndexBottom";
 import SectorContributionComparison from "@/projectLibrary/AAF/SectorContributionComparison";
 import SectorAttribution from "@/projectLibrary/AAG/SectorAttribution";
+import WeeklyExposure from "@/projectLibrary/AAI/SectorExposuresWeekly";
 import CountryExposure from '@/projectLibrary/AAH/QuarterlyCountryExposure';
 
 // Popup Configurations that define all of the potential
@@ -319,4 +320,42 @@ export const PopupResources = {
         //Tags that can be given to the project. You could use this to categorise a project. For example give each line chart component a tag "line chart". Or assign a tag that can be used as an additional keyword match when searching for a project.
         tags: ["bar chart"],
     },
+    AAI: {
+        //POPUP CONFIGURATION
+        //  Various elements used to drive
+        //  the generation of the popup.
+
+        //Title of the popup.
+        title: "Weekly Sector Exposure",
+        //Subtitle of the popup.
+        //This may be omitted.
+        subTitle: "AmCharts line chart",
+        //Component which will be rendered
+        //inside the popup. Ensure that the
+        //component is imported.
+        component: WeeklyExposure,
+
+        //Optional custom sizing parameters.
+        //If omitted then will default to
+        //pre-specified values.
+        height: 700,
+        width: 1000,
+        minHeight: 400,
+        minWidth: 600,
+
+        //LIBRARY ITEM CONFIGURATION
+        //  Various fields used to drive
+        //  the details that are displayed for a project in our Library.
+        projectID: "AAI",
+        developerName: 'Ivaylo Gelov',
+        developerEmail: 'ivo_gelov@gmx.net',
+        developerGithub: '',
+        developerLinkedin: 'https://www.linkedin.com/in/ivogelov-web-developer',
+        projectDescription: 'Weekly Exposure',
+        devTime: '3.5 hours',
+        comments: '',
+
+        //Tags that can be given to the project. You could use this to categorise a project. For example give each line chart component a tag "line chart". Or assign a tag that can be used as an additional keyword match when searching for a project.
+        tags: ["line chart"],
+    },      
 };
