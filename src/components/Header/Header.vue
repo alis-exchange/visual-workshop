@@ -34,7 +34,7 @@
         offset-y
         :close-product-navigation-on-click="closeProductNavigationMenu"
       >
-        <template v-slot:activator="{ on, attrs }">
+        <template #activator="{ on, attrs }">
           <v-btn
             icon
             v-bind="attrs"
@@ -104,21 +104,18 @@ export default {
   props: {
     productList: {
       type: Array,
-      required: true,
       default() {
         return [];
       }
     },
     headerActions: {
       type: Array,
-      required: true,
       default() {
         return [];
       }
     },
     productDeployments: {
       type: Array,
-      required: true,
       default() {
         return [];
       }
